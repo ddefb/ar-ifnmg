@@ -20,7 +20,25 @@
       arjs="sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 4x4_BCH_13_9_3;"
     >
       <a-marker preset="hiro">
-        <!-- Adding an OBJ file to an AR Project-->
+        <!-- Animal cell -->
+        <a-entity
+          obj-model="obj:url(https://raw.githubusercontent.com/ddefb/ar-test/main/model/pin-labels-cell-with-structures-name.obj);mtl:url(https://raw.githubusercontent.com/ddefb/ar-test/main/model/pin-labels-cell-with-structures-name.mtl)"
+          position="0 0 0"
+          scale=".05 .05 .05"
+        >
+          <!-- <a-animation
+            attribute="position"
+            dur="3000"
+            from="-15 0 0"
+            to="15 0 0"
+            easing="linear"
+            repeat="indefinite"
+          ></a-animation> -->
+        </a-entity>
+      </a-marker>
+      <!-- handle kanji marker -->
+      <a-marker preset='kanji'>
+        <!-- Ant -->
         <a-entity
           obj-model="obj:url(https://raw.githubusercontent.com/ddefb/ar-test/main/model/pin-labels-cell-with-structures-name.obj);mtl:url(https://raw.githubusercontent.com/ddefb/ar-test/main/model/pin-labels-cell-with-structures-name.mtl)"
           position="0 0 0"
