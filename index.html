@@ -47,8 +47,11 @@
         >
       </a-marker>
       <!-- handle kanji marker -->
-      <a-marker present="kanji">
-        <a-entity gltf-model="url(https://raw.githubusercontent.com/ddefb/ar-test/main/model/scene.gltf)"></a-entity>
+      <a-marker type='pattern' url='https://raw.githubusercontent.com/ddefb/ar-test/main/pattern/pattern-letterC.patt'>
+        <a-entity gltf-model="url(https://raw.githubusercontent.com/ddefb/ar-test/main/model/scene.gltf)" 
+                  scale=".05 .05 .05"
+                  >
+        </a-entity>
       </a-marker>
       <a-entity camera> </a-entity>
     </a-scene>
