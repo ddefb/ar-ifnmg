@@ -13,6 +13,9 @@
   
   <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v6.0.0/dist/aframe-extras.min.js"></script>  
   <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+  
+
 
   <body style="margin : 0px; overflow: hidden;">
     <a-scene
@@ -48,11 +51,13 @@
       </a-marker>
       <!-- handle kanji marker -->
       <a-marker type='pattern' url='https://raw.githubusercontent.com/ddefb/ar-test/main/pattern/pattern-letterC.patt'>
-        <a-entity gltf-model="url(https://raw.githubusercontent.com/ddefb/ar-test/main/model/scene.gltf)" 
+<!--         <a-entity gltf-model="url(https://raw.githubusercontent.com/ddefb/ar-test/main/model/scene.gltf)" 
                   position="0 0 30"
                   scale=".001 .001 .001"
                   animation-mixer
                   >
+        </a-entity> -->
+        <a-entity scale="0.005 0.005 0.005" fbx-model="src: url(https://github.com/ddefb/ar-test/blob/main/model/solar_system.fbx);">
         </a-entity>
       </a-marker>
       <a-entity camera> </a-entity>
