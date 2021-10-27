@@ -21,6 +21,7 @@
     >
       <a-assets>
         <a-asset-item id="solarSystem" src="https://raw.githubusercontent.com/ddefb/ar-test/main/model/scene.gltf"></a-asset-item>
+        <a-asset-item id="borboleta" src="https://raw.githubusercontent.com/ddefb/ar-test/main/model/borboleta.gltf"></a-asset-item>
       </a-assets>
       <a-marker preset="hiro">
         <!-- Animal cell -->
@@ -63,14 +64,19 @@
           rotation="0 180 180"
         >
       </a-marker>
-      <a-marker type='pattern' url='https://raw.githubusercontent.com/ddefb/ar-test/main/pattern/pattern-letterD.patt'>
+      <!-- <a-marker type='pattern' url='https://raw.githubusercontent.com/ddefb/ar-test/main/pattern/pattern-letterD.patt'>
         <a-entity
           obj-model="obj:url(https://raw.githubusercontent.com/ddefb/ar-test/main/model/Borboleta.obj);mtl:url(https://raw.githubusercontent.com/ddefb/ar-test/main/model/Borboleta.mtl)"
           position="0 0 0"
           scale="1. 1. 1."
           rotation="0 180 180"
         >
+      </a-marker> -->
+      <a-marker type='pattern' url='https://raw.githubusercontent.com/ddefb/ar-test/main/pattern/pattern-letterD.patt'>
+        <a-entity gltf-model="#borboleta" scale="1.0 1.0 1.0" animation-mixer>
+        </a-entity>
       </a-marker>
+      <!-- handle kanji marker -->
       <a-entity camera> </a-entity>
     </a-scene>
   </body>
