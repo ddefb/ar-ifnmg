@@ -50,9 +50,26 @@
         >
       </a-marker>
       <!-- handle kanji marker -->
-      <a-marker type='pattern' url='https://raw.githubusercontent.com/ddefb/ar-test/main/pattern/pattern-letterC.patt'>
+      <!-- <a-marker type='pattern' url='https://raw.githubusercontent.com/ddefb/ar-test/main/pattern/pattern-letterC.patt'>
         <a-entity gltf-model="#solarSystem" scale=".005 .005 .005" animation-mixer>
         </a-entity>
+      </a-marker> -->
+      <!-- handle kanji marker -->
+      <a-marker type='pattern' url='https://raw.githubusercontent.com/ddefb/ar-test/main/pattern/pattern-letterC.patt'>
+        <a-entity
+          obj-model="obj:url(https://raw.githubusercontent.com/ddefb/ar-test/main/model/Abelha.obj);mtl:url(https://raw.githubusercontent.com/ddefb/ar-test/main/model/Abelha.mtl)"
+          position="0 0 0"
+          scale="1. 1. 1."
+          rotation="0 180 180"
+        >
+      </a-marker>
+      <a-marker type='pattern' url='https://raw.githubusercontent.com/ddefb/ar-test/main/pattern/pattern-letterD.patt'>
+        <a-entity
+          obj-model="obj:url(https://raw.githubusercontent.com/ddefb/ar-test/main/model/Borboleta.obj);mtl:url(https://raw.githubusercontent.com/ddefb/ar-test/main/model/Borboleta.mtl)"
+          position="0 0 0"
+          scale="1. 1. 1."
+          rotation="0 180 180"
+        >
       </a-marker>
       <a-entity camera> </a-entity>
     </a-scene>
