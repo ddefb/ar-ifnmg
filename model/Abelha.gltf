@@ -6,6 +6,20 @@
     "scene" : 0,
     "scenes" : [
         {
+            "extras" : {
+                "glTF2ExportSettings" : {
+                    "export_apply" : 1,
+                    "export_cameras" : 1,
+                    "export_current_frame" : 0,
+                    "export_extras" : 1,
+                    "export_format" : "GLTF_SEPARATE",
+                    "export_image_format" : "PNG",
+                    "export_lights" : 1,
+                    "export_selected" : 1,
+                    "export_tangents" : 1,
+                    "export_texture_dir" : "bee_texture"
+                }
+            },
             "name" : "Scene",
             "nodes" : [
                 0
@@ -67,10 +81,11 @@
                     "attributes" : {
                         "POSITION" : 0,
                         "NORMAL" : 1,
-                        "TEXCOORD_0" : 2,
-                        "TEXCOORD_1" : 3
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3,
+                        "TEXCOORD_1" : 4
                     },
-                    "indices" : 4,
+                    "indices" : 5,
                     "material" : 0
                 }
             ]
@@ -91,17 +106,17 @@
         {
             "mimeType" : "image/png",
             "name" : "bee_12_04bee_normal",
-            "uri" : "bee_12_04bee_normal.png"
+            "uri" : "bee_texture/bee_12_04bee_normal.png"
         },
         {
             "mimeType" : "image/png",
             "name" : "bee_12_04bee_baseColor",
-            "uri" : "bee_12_04bee_baseColor.png"
+            "uri" : "bee_texture/bee_12_04bee_baseColor.png"
         },
         {
             "mimeType" : "image/png",
             "name" : "bee_12_04bee_metallicRoughness",
-            "uri" : "bee_12_04bee_metallicRoughness.png"
+            "uri" : "bee_texture/bee_12_04bee_metallicRoughness.png"
         }
     ],
     "accessors" : [
@@ -131,7 +146,7 @@
             "bufferView" : 2,
             "componentType" : 5126,
             "count" : 14763,
-            "type" : "VEC2"
+            "type" : "VEC4"
         },
         {
             "bufferView" : 3,
@@ -141,6 +156,12 @@
         },
         {
             "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 14763,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 5,
             "componentType" : 5123,
             "count" : 68316,
             "type" : "SCALAR"
@@ -159,23 +180,28 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 118104,
+            "byteLength" : 236208,
             "byteOffset" : 354312
         },
         {
             "buffer" : 0,
             "byteLength" : 118104,
-            "byteOffset" : 472416
+            "byteOffset" : 590520
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 118104,
+            "byteOffset" : 708624
         },
         {
             "buffer" : 0,
             "byteLength" : 136632,
-            "byteOffset" : 590520
+            "byteOffset" : 826728
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 727152,
+            "byteLength" : 963360,
             "uri" : "Abelha.bin"
         }
     ]
