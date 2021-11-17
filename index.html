@@ -22,6 +22,7 @@
       <a-assets>
         <a-asset-item id="solarSystem" src="https://raw.githubusercontent.com/ddefb/ar-test/main/model/scene.gltf"></a-asset-item>
         <a-asset-item id="borboleta" src="https://raw.githubusercontent.com/ddefb/ar-test/main/model/Borboleta.gltf"></a-asset-item>
+        <a-asset-item id="abelha" src="https://raw.githubusercontent.com/ddefb/ar-test/main/model/Abelha.gltf"></a-asset-item>
       </a-assets>
       <a-marker preset="hiro">
         <!-- Animal cell -->
@@ -57,12 +58,8 @@
       </a-marker> -->
       <!-- handle kanji marker -->
       <a-marker type='pattern' url='https://raw.githubusercontent.com/ddefb/ar-test/main/pattern/pattern-letterC.patt'>
-        <a-entity
-          obj-model="obj:url(https://raw.githubusercontent.com/ddefb/ar-test/main/model/Abelha.obj);mtl:url(https://raw.githubusercontent.com/ddefb/ar-test/main/model/Abelha.mtl)"
-          position="0 0 0"
-          scale="1. 1. 1."
-          rotation="0 180 180"
-        >
+        <a-entity gltf-model="#abelha" scale="0.5 0.5 0.5" rotation="0 180 180">
+        </a-entity>
       </a-marker>
       <!-- <a-marker type='pattern' url='https://raw.githubusercontent.com/ddefb/ar-test/main/pattern/pattern-letterD.patt'>
         <a-entity
