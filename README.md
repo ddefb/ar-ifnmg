@@ -1,3 +1,3 @@
-# ar-js-test
-Trying some Framework using A-Frame and AR.js.
-Using free spider model and earth texture. Marker using default Hiro and Kanji marker from ARToolkit
+# IFNMG - AR Project
+Trying some Framework using A-Frame and AR.js for IFNMG - AR Project.
+Using free models and texture (and adaptated) from Sketchfab. Marker using default markers from ARToolkit.
