@@ -69,8 +69,11 @@ If you use this repository in your work, please cite the corresponding publicati
 ```txt
 PEIXOTO, Luara Brito; MARTINS, Danilo Silveira; BEZERRA, Diego de Freitas. Realidade aumentada como ferramenta complementar ao ensino: um estudo de caso aplicado ao Ensino Médio Integrado do IFNMG – Campus Arinos. Recital - Revista de Educação, Ciência e Tecnologia de Almenara/MG, [S. l.], v. 7, n. 2, p. 412–431, 2025. DOI: 10.46636/recital.v7i2.741. Disponível em: https://recital.almenara.ifnmg.edu.br/recital/article/view/741. Acesso em: 3 jan. 2026.
 ```
-
 ## Licença
 
-Este projeto é disponibilizado exclusivamente para fins educacionais e acadêmicos.
+Este projeto é distribuído sob a licença **MIT**.
+
+Isso permite o uso, cópia, modificação, fusão, publicação, distribuição, sublicenciamento e/ou venda de cópias do software, desde que o aviso de copyright e a permissão sejam mantidos.
+
+Consulte o arquivo [`LICENSE`](LICENSE) para mais detalhes.
 
